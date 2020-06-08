@@ -302,15 +302,18 @@ const titlePage = document.querySelector('h1');
 if (time >= 4 && time <= 16) {
     body.style.background = 'url(img/day-bg.jpg) no-repeat';
     body.style.backgroundSize = 'cover';
+    body.style.backgroundAttachment = 'fixed';
     label.style.color = '#4682B4';
 } else if (time > 16 && time < 21) {
     body.style.background = 'url(img/evening-bg.jpg) no-repeat';
     body.style.backgroundSize = 'cover';
+    body.style.backgroundAttachment = 'fixed';
     titlePage.style.color = '#FFFFE0';
     titlePage.style.textShadow = '0 2px 2px #000';
 } else {
 
     body.style.background = 'url(img/night-bg.jpg) no-repeat';
+    body.style.backgroundAttachment = 'fixed';
     body.style.backgroundColor = '#05263F';
     body.style.backgroundSize = 'cover';
     label.forEach(item => {
