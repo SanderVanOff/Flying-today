@@ -290,6 +290,61 @@ input {
     margin: 50px 0;
 }
 
+.jet {
+    position: absolute;
+    width: 300px;
+    top: 10%;
+    left: -2500px;
+    animation: flyjet 55s linear infinite 5s;
+
+}
+
+@keyframes flyjet {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(1500%) translateY(250%);
+    }
+}
+
+.jet-2 {
+    position: absolute;
+    width: 120px;
+    top: 5%;
+    right: -500px;
+    animation: flyjet2 70s linear infinite;
+}
+
+@keyframes flyjet2 {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-2500%);
+    }
+}
+
+.jet-3 {
+    position: absolute;
+    width: 150px;
+    top: 2%;
+    left: -4000px;
+    animation: flyjet3 90s linear infinite;
+}
+
+@keyframes flyjet3 {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(4500%);
+    }
+}
+
 @media(max-width: 768px) {
     .ticket__wrapper {
         -ms-flex-wrap: wrap;
@@ -353,6 +408,11 @@ input {
     .ticket {
         width: 90%;
     }
+
+    .jet-2 {
+        top: -13%;
+    }
+
 }
 
 @media(max-width: 550px) {
@@ -499,60 +559,5 @@ input {
 
     100% {
         transform: translateX(0%);
-    }
-}
-
-.jet {
-    position: absolute;
-    width: 300px;
-    top: 10%;
-    left: -2500px;
-    animation: flyjet 55s linear infinite 5s;
-
-}
-
-@keyframes flyjet {
-    0% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateX(1500%) translateY(250%);
-    }
-}
-
-.jet-2 {
-    position: absolute;
-    width: 120px;
-    top: 5%;
-    right: -500px;
-    animation: flyjet2 70s linear infinite;
-}
-
-@keyframes flyjet2 {
-    0% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateX(-2500%);
-    }
-}
-
-.jet-3 {
-    position: absolute;
-    width: 150px;
-    top: 2%;
-    left: -4000px;
-    animation: flyjet3 90s linear infinite;
-}
-
-@keyframes flyjet3 {
-    0% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateX(4500%);
     }
 }
