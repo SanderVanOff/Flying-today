@@ -466,6 +466,10 @@ input {
 
     }
 
+    .jet {
+        display: none;
+    }
+
 }
 
 @media(max-width: 320px) {
