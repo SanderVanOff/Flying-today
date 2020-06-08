@@ -345,6 +345,31 @@ input {
     }
 }
 
+@media(max-width: 1024px) {
+
+
+    .wrapper__search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .wrapper__search .input input {
+        width: 600px;
+        position: relative;
+        z-index: 12;
+        font-size: 24px;
+
+    }
+
+    .input {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
 @media(max-width: 768px) {
     .ticket__wrapper {
         -ms-flex-wrap: wrap;
