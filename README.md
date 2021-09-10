@@ -19,6 +19,6 @@
   - Смена фона при смене времени суток (утро, вечер, ночь);
   - страница добавлена на GitHub
 
-Ссылка: https://sanderbest.github.io/Flying-today/
+Ссылка: https://sandervanoff.github.io/Flying-today/
 ![YRz1QGJQ825XZ8Xz](https://user-images.githubusercontent.com/61217980/129893949-87bbb2c3-17ce-45f9-a373-f6739d432856.png)
 
